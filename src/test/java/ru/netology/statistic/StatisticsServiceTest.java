@@ -15,6 +15,6 @@ public class StatisticsServiceTest {
 
         long actual = service.findMax(incomesInBillions);
 
-        Assertions.assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 }
